@@ -320,6 +320,24 @@ a {
   line-height: var(--heading-line-height);
 }
 
+#about .data-info {
+  margin-bottom: 2rem; /* Increase this value to add more space between titles */
+  padding: 0.5rem 0; /* Adjust padding if needed */
+}
+
+#about .data-info .info-title {
+  font-size: 1.7rem; /* Adjust font size as needed */
+  font-weight: bold;
+  color: var(--bs-dark);
+  margin-bottom: 0.5rem; /* Adjust the space below the title */
+}
+
+#about .data-info p {
+  margin: 0;
+  font-size: 1rem; /* Adjust font size as needed */
+  color: var(--bs-body-color);
+}
+
 /* mobile menu */
 /*----- Header Menu
 --------------------------------------------------------------*/
